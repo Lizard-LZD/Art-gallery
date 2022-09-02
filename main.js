@@ -117,7 +117,7 @@ window.onload = () => {
                 /*letter.classList.remove("have-been-active"+i);*/
                 letter.classList.add("show");
             },goBackTime*1000)
-            yield
+            
         })
     }
 
