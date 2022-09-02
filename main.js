@@ -126,11 +126,11 @@ window.onload = () => {
 
   document.addEventListener("scroll",() => {
     const scrollY = window.scrollY
-    console.log(scrollY)
+    
 
     if (scrollY !== 01){
         background.style.backgroundPosition = `calc(50% + ${scrollY}px) calc(50% + ${scrollY}px)`
-        console.log(background.style.backgroundPosition)
+        
     }else{
         background.style.backgroundPosition = ''
     }
