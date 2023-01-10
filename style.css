@@ -399,7 +399,6 @@ section .text span-text.active{
 
 .show{
     animation: show-letter .5s linear forwards;
-    /*display: text;*/
 }
 
 @keyframes show-letter{
