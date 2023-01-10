@@ -5,11 +5,8 @@ perspective:800px;
 
 body
 {
-/*width: 100vw;
-height: 100vh;*/
 background-image:url("https://images.unsplash.com/photo-1465101162946-4377e57745c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dGhlJTIwdW5pdmVyc2V8ZW58MHx8MHx8&w=1000&q=80");
 background-size: cover;
-background-color: linear-gradient(#1d2b4880, #4f426680);
 }
 
 
@@ -137,7 +134,6 @@ box-shadow:5px 5px 10px gold;
 #carousel{
 width:100%;
 height:300px;
-/*background-color: *//*linear*//*radial-gradient(#1d2b48, #4f4266);*/
 background: linear-gradient(#1d2b4880, #4f426680);
 position:relative;
 top:0px;
@@ -145,7 +141,6 @@ margin: 0 auto;
 display:flex;
 justify-content: space-around;
 align-items:center;
-/*flex-shrink:1;*/
 overflow:hidden;
 }
 
@@ -154,11 +149,8 @@ overflow:hidden;
   width: 800px;
   height: 200px;
   position: absolute;
-  /*margin: 0px auto;*/
   top:50px;
   flex-shrink:1;
-  /*flex-shrink:1;*/
-  /*left:50px;*/
 }
 .out .inner {
   width: 100%;
@@ -170,9 +162,6 @@ overflow:hidden;
   height: 200px;
   position: absolute;
   transition: 0.3s;
-  /*display:flex;
-
-align-items:center;*/
 
 }
 .out .inner .img img {
@@ -190,12 +179,10 @@ align-items:center;*/
   z-index:999;
 }
 .out .arrow i {
-  /*position: absolute;*/
   display:inline-block;
   color: #fff;
   z-index: 9999;
   cursor: pointer;
-  /*top: 84px;*/
 }
 .out .arrow .left {
   position:sticky;
@@ -256,7 +243,6 @@ align-items:center;*/
 #content{
 width:100%;
 height:auto;
-/*background-color:black;*/
 background: linear-gradient(#1d2b4880, #4f426680);
 position:relative;
 top:20px;
@@ -274,8 +260,6 @@ width:300px;
 height:300px;
 border:5px solid linear-gradient(#1d2b4880, #4f426680);
 margin:20px 0;
-/*-webkit-box-reflect:below 15px
--webkit-box-gradient(transparent 10% white);*/
 }
 
 #content #cuboid{
@@ -420,7 +404,7 @@ section .text span-text.active{
 @keyframes show-letter{
     0%{
         opacity: 0;
-        transform: rotate(0deg) scale(1);/*可注释*/
+        transform: rotate(0deg) scale(1);
     }
     50%{
         opacity: 0.5;
@@ -429,7 +413,7 @@ section .text span-text.active{
 
     100%{
         opacity: 1;
-        transform: rotate(0deg) scale(1);/*可注释*/
+        transform: rotate(0deg) scale(1);
     }
 }
 
