@@ -1,2 +1,2 @@
-# Lizard-LZD.github.io
-Personal Site
+HTML CSS JS
+Static Site
